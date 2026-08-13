@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - UV Dax</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="navbar">
+         <!-- NAVBAR -->
+        <nav class="navbar">
+            <button class="menu-btn" id="menuToggle" aria-label="Toggle Navigation">☰</button>
+            <a href="index.html" class="brand-logo">UV DAX</a>
+            <a href="https://instagram.com" class="social-icon" target="_blank" rel="noopener">INSTAGRAM</a>
+        </nav>
+
+        <!-- FULL-SCREEN NAVIGATION OVERLAY -->
+        <div class="nav-overlay" id="navOverlay">
+            <button class="close-btn" id="closeToggle" aria-label="Close Navigation">&times;</button>
+            <div class="overlay-content">
+                <ul class="overlay-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="clients.html">Client Portfolio</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="certifications.html">Certificates/Registration</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <!-- Page Title -->
+        <section class="page-header">
+            <h1>Get In Touch</h1>
+            <p class="page-subtitle">We run pre-press, printing, fabrication, and installation entirely in-house — anything below can be combined into a single project, on a single timeline.</p>
+        </section>
+
+        <!-- Form Section -->
+        <section class="contact-form-container">
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="entity">Entity Name</label>
+                    <input type="text" id="entity" name="entity">
+                </div>
+                <div class="form-group">
+                    <label for="person">Contact Person</label>
+                    <input type="text" id="person" name="person">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject">
+                </div>
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea id="description" name="description" rows="6"></textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn-submit">SUBMIT</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- Map Section -->
+        <section class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3358.583340578665!2d74.8725!3d32.6782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzLCsDQwJzQxLjUiTiA3NMK1NTInMjEuMCJF!5e0!3m2!1sen!2sin!4v1600000000000!5m2!1sen!2sin" 
+                width="100%" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </section>
+
+        <!-- Contact Info Details Grid -->
+        <section class="contact-details-grid">
+            <div class="detail-col">
+                <p><strong>Email:</strong> uvdax13@gmail.com</p>
+                <p><strong>Phone:</strong> (+91) 7051111136</p>
+                <p> &nbsp; &nbsp; &nbsp; &nbsp; (+91) 9797933303</p>
+            </div>
+            <div class="detail-col">
+                <p>Plot No 13-A, Phase 1,</p>
+                <p>Industrial Area Gangyal, Jammu</p>
+                <p>Jammu And Kashmir, 180010</p>
+            </div>
+            <div class="detail-col">
+                <p>Monday - Saturday</p>
+                <p>9 AM - 6 PM</p>
+            </div>
+            <div class="detail-col">
+                <p><a href="#">Whatsapp</a></p>
+                <p><a href="#">Instagram</a></p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-columns container">
+            <div class="footer-col">
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="certififications.html">Certifications</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <ul>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="work.html">Work</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <ul>
+                    <li><a href="clients.html">Client Portfolio</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <ul>
+                    <li><a href="careers.html">Careers</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom container">
+            <span>UV DAX</span>
+            <span>All Rights Reserved</span>
+        </div>
+    </footer>
+
+</body>
+</html>
